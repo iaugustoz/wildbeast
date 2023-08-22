@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 @layer components {
-    
+
+    /* Grid Geral */
+    .estrutura {
+        @apply grid grid-cols-[minmax(160px,_1fr)_3fr_300px];
+    }
 }

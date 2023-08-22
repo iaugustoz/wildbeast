@@ -1,0 +1,32 @@
+/* Define o layout das áreas do grid */
+.estrutura {
+    grid-template-areas:
+    "header   header   header"
+    "sidenav  content anuncios"
+    "footer   footer   footer";
+}
+
+/* Define a área do menu lateral */
+.header {
+    grid-area: header;
+}
+
+/* Define a área do conteúdo principal */
+.sidenav {
+    grid-area: sidenav;
+}
+
+/* Define a área do conteúdo principal */
+.content {
+    grid-area: content;
+}
+
+/* Define a área dos anúncios */
+.anuncios {
+    grid-area: anuncios;
+}
+
+/* Define a área do rodapé */
+.footer {
+    grid-area: footer;
+}

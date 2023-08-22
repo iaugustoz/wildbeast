@@ -4,7 +4,11 @@ module.exports = {
     './**/*.html',
     '.**/*.html',
   ],  theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'vollkorn': ['Vollkorn', 'Georgia', 'Serif'],
+      },  
+    },
   },
   plugins: [],
 }
