@@ -534,13 +534,126 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-/* Grid Geral */
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  background-image: linear-gradient(135deg, #8844EE, #B07DFB);
+  padding: 30px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.sidenav {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 251 252 / var(--tw-bg-opacity));
+  padding: 30px;
+}
+
+/* Sistema de grid principal */
 
 .estrutura {
   display: grid;
   grid-template-columns: minmax(160px, 1fr) 3fr 300px;
 }
 
+.mb-30px {
+  margin-bottom: 30px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.min-w-\[60px\] {
+  min-width: 60px;
+}
+
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-10px {
+  padding: 10px;
+}
+
+.p-20px {
+  padding: 20px;
+}
+
 .font-vollkorn {
   font-family: Vollkorn, Georgia, Serif;
 }
+
+.text-\[1\.125em\] {
+  font-size: 1.125em;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-sm {
+  --tw-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  --tw-shadow-colored: 5px 5px 15px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-\[\.1s\] {
+  transition-duration: .1s;
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.hover\:bg-purple-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lilac-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(176 125 251 / var(--tw-bg-opacity));
+}
+

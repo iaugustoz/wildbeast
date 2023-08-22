@@ -30,3 +30,19 @@
 .footer {
     grid-area: footer;
 }
+
+img {
+    max-width: 100%;
+}
+
+.header nav a {
+    background: rgba(0, 0, 0, .1);
+}
+
+.header nav a:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.header li + li {
+    margin-left: 30px;
+}

@@ -4,8 +4,21 @@
 
 @layer components {
 
-    /* Grid Geral */
+    .header {
+        @apply bg-lilac-gradient p-30px grid grid-cols-[1fr_auto] items-center;
+    }
+
+    .logo {
+        @apply max-w-[200px];
+    }
+
+    .sidenav {
+        @apply bg-gray-25 p-30px;
+    }
+
+    /* Sistema de grid principal */
     .estrutura {
         @apply grid grid-cols-[minmax(160px,_1fr)_3fr_300px];
     }
 }
+
