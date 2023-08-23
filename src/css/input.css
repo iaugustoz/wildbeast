@@ -21,6 +21,22 @@
         @apply bg-gray-25 p-30px;
     }
 
+    .content {
+        @apply max-w-[900px] mx-auto p-30px grid grid-cols-[1fr_1fr] gap-30px;
+    }
+
+    .col-wide {
+        @apply col-span-full;
+    }
+
+    .imagem-1 {
+        @apply row-span-[span 2] self-end;
+    }
+
+    .imagem-2 {
+        @apply self-end;
+    }
+
     .anuncios {
        @apply grid place-content-start p-30px gap-30px;
     }
