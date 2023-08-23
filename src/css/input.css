@@ -30,11 +30,45 @@
     }
 
     .imagem-1 {
-        @apply row-span-[span 2] self-end;
+        @apply row-span-2 self-end;
     }
 
     .imagem-2 {
         @apply self-end;
+    }
+
+    /*ESTILOS CONTENT */
+
+    .texto {
+        @apply text-[1.2em] leading-[1.6] tracking-[-0.005em];
+    }
+
+    .informacoes p + p {
+        @apply mt-30px;
+    }
+
+    .titulo {
+        @apply text-lilac-600;
+    }
+
+    .titulo h1 {
+        @apply text-[3.75em] leading-[1] font-bold;
+    }
+
+    .titulo span {
+        @apply text-[0.875em] italic;
+    }
+
+    .caracteristicas {
+        @apply flex items-start;
+    }
+
+    .numero {
+        @apply text-lilac-600 text-[3em] leading-[1] my-10px mx-auto;
+    }
+
+    .rotulo {
+        @apply bg-white rounded-s-none rounded-br-[5px] rounded-bl-[5px] text-lilac-600 py-[5px] px-0 relative top-[2px];
     }
 
     .anuncios {

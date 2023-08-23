@@ -48,3 +48,7 @@ img {
 .header li + li {
     margin-left: 30px;
 }
+
+.text {
+    color: rgba(0, 0, 0, .7);
+}
