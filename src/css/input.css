@@ -71,8 +71,20 @@
         @apply bg-white rounded-s-none rounded-br-[5px] rounded-bl-[5px] text-lilac-600 py-[5px] px-0 relative top-[2px];
     }
 
+    .destaque {
+        @apply text-[0.875em] text-lilac-600 max-w-[16em];
+    }
+
     .anuncios {
        @apply grid place-content-start p-30px gap-30px;
+    }
+
+    .citacao, .atributos {
+        @apply p-30px rounded-[5px] shadow-sm bg-lilac-gradient text-white;
+    }
+
+    .atributos li + li {
+        @apply border-t-2 border-solid border-t-lilac-600;
     }
 
     .footer {

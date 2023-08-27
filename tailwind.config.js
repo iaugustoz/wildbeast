@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         'vollkorn': ['Vollkorn', 'Georgia', 'Serif'],
+        'courier': ['Courier', 'monospace']
       },  
     },
   },

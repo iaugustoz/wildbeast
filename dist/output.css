@@ -643,11 +643,36 @@ video {
   color: rgb(176 125 251 / var(--tw-text-opacity));
 }
 
+.destaque {
+  max-width: 16em;
+  font-size: 0.875em;
+  --tw-text-opacity: 1;
+  color: rgb(176 125 251 / var(--tw-text-opacity));
+}
+
 .anuncios {
   display: grid;
   place-content: start;
   gap: 30px;
   padding: 30px;
+}
+
+.citacao, .atributos {
+  border-radius: 5px;
+  background-image: linear-gradient(135deg, #8844EE, #B07DFB);
+  padding: 30px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  --tw-shadow-colored: 5px 5px 15px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.atributos li + li {
+  border-top-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-top-color: rgb(176 125 251 / var(--tw-border-opacity));
 }
 
 .footer {
@@ -656,6 +681,11 @@ video {
 
 .relative {
   position: relative;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-30px {
@@ -698,6 +728,10 @@ video {
   max-width: 100px;
 }
 
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -727,8 +761,16 @@ video {
   padding: 30px;
 }
 
+.p-\[15px\] {
+  padding: 15px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-courier {
+  font-family: Courier, monospace;
 }
 
 .font-vollkorn {
@@ -737,6 +779,14 @@ video {
 
 .text-\[1\.125em\] {
   font-size: 1.125em;
+}
+
+.text-\[1\.5em\] {
+  font-size: 1.5em;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .text-white {
