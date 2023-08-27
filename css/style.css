@@ -1,3 +1,4 @@
+/* ZERAR MARGENS E PREENCHIMENTOS PARA ELEMENTOS GERAIS */
 body,
 p,
 h1,
@@ -8,6 +9,7 @@ blockquote {
   margin: 0px;
 }
 
+/* ESTILOS GLOBAIS DO CORPO */
 body {
   font-family: 'Vollkorn', Georgia, Serif;
 }
@@ -27,11 +29,9 @@ img {
   display: block;
 }
 
-/* GRID GERAL */
-
+/* LAYOUT GERAL EM GRADE */
 .estrutura {
   display: grid;
-  /* Minmax é para definir o mínimo que quero dela, a última eu quero 300px fixo sempre. */
   grid-template-columns: minmax(160px, 1fr) 3fr 300px;
   grid-template-areas:
     'header header header'
@@ -39,6 +39,7 @@ img {
     'footer footer footer';
 }
 
+/* MÍDIA QUERY PARA TELAS DE ATÉ 1200PX */
 @media (max-width: 1200px) {
   .estrutura {
     grid-template-areas:
@@ -49,9 +50,10 @@ img {
   }
 }
 
+/* MÍDIA QUERY PARA TELAS DE ATÉ 760PX */
 @media (max-width: 760px) {
   .estrutura {
-    grid-template-columns: 100%; /* 1fr está bugando */
+    grid-template-columns: 100%;
     grid-template-areas:
       'header'
       'sidenav'
@@ -61,8 +63,7 @@ img {
   }
 }
 
-/* HEADER */
-
+/* CABEÇALHO */
 .header {
   grid-area: header;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
@@ -114,8 +115,7 @@ img {
   }
 }
 
-/* SIDENAV */
-
+/* MENU LATERAL */
 .sidenav {
   grid-area: sidenav;
   background: #fafbfc;
@@ -177,15 +177,13 @@ img {
   }
 }
 
-/* CONTENT */
-
+/* CONTEÚDO */
 .content {
   grid-area: content;
   margin: 0 auto;
 }
 
-/* ANUNCIOS */
-
+/* ANÚNCIOS */
 .anuncios {
   grid-area: anuncios;
   background: #fafbfc;
@@ -197,15 +195,13 @@ img {
   justify-content: space-around;
 }
 
-/* FOOTER */
-
+/* RODAPÉ */
 .footer {
   grid-area: footer;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
 }
 
-/* GRID DO CONTENT */
-
+/* GRADE DE CONTEÚDO */
 .content {
   display: grid;
   max-width: 900px;
@@ -221,12 +217,10 @@ img {
 }
 
 .col-wide {
-  /* A coluna vai do 1 até o último, por isso -1, assim pega todas as colunas */
   grid-column: 1 / -1;
 }
 
 .imagem-1 {
-  /* span 2 significa que ess imagem vai ocupar 2 linhas e será alinhada ao final dela sempre. */
   grid-row: span 2;
   align-self: end;
 }
@@ -235,8 +229,7 @@ img {
   align-self: end;
 }
 
-/* ESTILOS DO CONTENT */
-
+/* ESTILOS DE CONTEÚDO */
 p {
   font-size: 1.2em;
   line-height: 1.6;
@@ -248,8 +241,7 @@ p {
   margin-top: 30px;
 }
 
-/* TITULO */
-
+/* TÍTULO */
 .titulo {
   color: #b07dfb;
 }
@@ -265,8 +257,7 @@ p {
   font-style: italic;
 }
 
-/* CARACTERISTICAS */
-
+/* CARACTERÍSTICAS */
 .caracteristicas {
   display: flex;
   align-items: flex-start;
@@ -306,7 +297,6 @@ p {
 }
 
 /* DESTAQUE */
-
 .destaque {
   font-size: 0.875em;
   color: #b07dfb;
@@ -346,4 +336,30 @@ p {
   color: white;
   text-align: center;
   padding: 30px;
+}
+
+/* =======================
+   Background da Scrollbar
+    Chorme, Edge e Safari
+   ======================= */
+   ::-webkit-scrollbar {
+    width: 12px;
+    border: 5px solid #ffffff;
+}
+  
+/* =====================
+          ScrollBar
+     Chorme, Edge e Safari
+   ===================== */
+::-webkit-scrollbar-thumb {
+    background-color: #af7bfb;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}
+
+/* =====================
+     ScrollBar Firefox
+   ===================== */
+html {
+    scrollbar-color: #af7bfb;
 }

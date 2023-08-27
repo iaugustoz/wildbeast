@@ -1,62 +1,63 @@
-# Nome do Projeto
+# Wildbeast
+<div align="center">
+<img src="img/site.png" width="2000px" alt="Imagem do site" title="Imagem do site"/>
+</div>
 
-Sistema de Gerenciamento de Tarefas
+## Descrição
+Este repositório abriga o código-fonte do site Wildbeast, um emocionante projeto desenvolvido utilizando HTML e CSS. Explore o mundo dos animais enquanto mergulha na magia do design responsivo e da organização eficiente do CSS Grid.
 
-## Visão Geral
+O Wildbeast é um site único que oferece informações fascinantes sobre diversos animais fantásticos. Com uma abordagem visualmente envolvente e interativa, este projeto é um exemplo impressionante de como o HTML e o CSS podem ser combinados para criar uma experiência online cativante.
 
-O Sistema de Gerenciamento de Tarefas é uma aplicação Java desenvolvida com o framework Spring Boot. Ele permite aos usuários criar, visualizar, atualizar e excluir tarefas, oferecendo uma solução simples para o gerenciamento pessoal ou em equipe.
-
-## Funcionalidades Principais
-
-- Criação de tarefas
-- Listagem de tarefas
-- Atualização de tarefas
-- Exclusão de tarefas
+## Status do projeto
+Projeto concluído.
 
 ## Pré-requisitos
 
-- Java 11 ou superior
-- Maven
-- Banco de dados MySQL
+- HTML5;
+- CSS.
 
-## Configuração
+## Instalando
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/sistema-gerenciamento-tarefas.git`
-2. Navegue para o diretório: `cd sistema-gerenciamento-tarefas`
-3. Configure as informações do banco de dados em `src/main/resources/application.properties`
-4. Execute o aplicativo: `mvn spring-boot:run`
+1. Clone o repositório para o seu ambiente local:
 
-## Como Usar
+```
+$ git clone https://github.com/igoraugustobrz/Wildbeast
+```
 
-1. Acesse o aplicativo em `http://localhost:8080`
-2. Crie uma nova tarefa clicando em "Adicionar Tarefa"
-3. Visualize, atualize ou exclua tarefas na lista
+2. Navegue até o diretório do projeto.
 
-## Contribuição
+```
+$ cd Wildbeast
+```
 
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
+## Contribuindo
 
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature: `git checkout -b feature/nome-da-feature`
-3. Faça suas alterações e commits: `git commit -am 'Adiciona nova feature'`
-4. Envie para o seu fork: `git push origin feature/nome-da-feature`
-5. Abra um Pull Request
+Contribuições são bem-vindas! Se você quiser contribuir para o projeto, siga as etapas abaixo:
 
-## Equipe
+1. Fork o repositório e clone-o para o seu ambiente local.
 
-- Bruno Capovilla ([LinkedIn](https://www.linkedin.com/in/bruno-capovilla-2223a431/)) - [@CapovillaB](https://github.com/CapovillaB)
-- Ellen Fontes ([LinkedIn](https://www.linkedin.com/in/ellen-fontes-617b21205/)) - [@EllenFontes ](https://github.com/EllenFontes)
-- Gustavo Pacheco ([LinkedIn](https://www.linkedin.com/in/gustavo-pacheco-java-engineer/)) - [@Gusta9s ](https://github.com/Gusta9s)
-- Igor Augusto ([LinkedIn](https://www.linkedin.com/in/igorbrz/)) - [@igoraugustobrz ](https://github.com/igoraugustobrz)
-- Kauê Matos ([LinkedIn](https://www.linkedin.com/in/ikauematos/)) - [@iKaueMatos ](https://github.com/iKaueMatos)
-- Pedro Prado ([LinkedIn](https://www.linkedin.com/in/phpprado/)) - [@PHPPrado ](https://github.com/PHPPrado)
+2. Crie uma nova branch:
 
-## Licença
+```
+git checkout -b minha-contribuicao
+```
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+3. Faça as alterações desejadas e commit-as:
 
-## Agradecimentos
+```
+git commit -m "Minha contribuição"
+```
 
-Agradecemos à equipe do Spring Boot e à comunidade de desenvolvedores por suas contribuições para tecnologias de código aberto.
+4. Envie suas alterações para o repositório remoto:
 
----
+```
+git push origin minha-contribuicao
+```
+
+5. Abra uma solicitação de pull no repositório original.
+
+## Autor
+
+- Igor Augusto
+- E-mail: igoraugustobz@gmail.com
+- Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/igorbrz/).
