@@ -6,6 +6,28 @@
     "footer   footer   footer";
 }
 
+@media (max-width: 1200px) {
+    .estrutura {
+        grid-template-areas: 
+        "header header header"
+        "sidenav content content"
+        "sidenav anuncios anuncios"
+        "footer footer footer";
+    }
+}
+
+@media (max-width: 760px) {
+    .estrutura {
+        grid-template-areas: 
+        "header"
+        "sidenav"
+        "content"
+        "anuncios"
+        "footer"
+        ;
+    }
+}
+
 /* Define a área do menu lateral */
 .header {
     grid-area: header;

@@ -541,6 +541,12 @@ video {
   grid-template-columns: minmax(160px, 1fr) 3fr 300px;
 }
 
+@media (max-width: 760px) {
+  .estrutura {
+    grid-template-columns: 100%;
+  }
+}
+
 .header {
   display: grid;
   grid-template-columns: 1fr auto;

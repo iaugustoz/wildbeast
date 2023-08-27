@@ -4,6 +4,10 @@ module.exports = {
     './**/*.html',
     '.**/*.html',
   ],  theme: {
+    screens: {
+      'xl': {'max': '1200px'},
+      'md': {'max': '760px'},
+    },
     extend: {  
     boxShadow: {
       'sm': '5px 5px 15px 0px rgba(44, 44, 44, 0.15)',
