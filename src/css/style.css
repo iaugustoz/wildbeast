@@ -17,6 +17,10 @@
 }
 
 @media (max-width: 760px) {
+    .sidenav {
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
     .estrutura {
         grid-template-areas: 
         "header"
@@ -26,6 +30,11 @@
         "footer"
         ;
     }
+    
+    .sidenav::after {
+        animation: seta .5s ease-in 0s infinite alternate;
+    }
+    
 }
 
 /* Define a área do menu lateral */
@@ -36,6 +45,17 @@
 /* Define a área do conteúdo principal */
 .sidenav {
     grid-area: sidenav;
+}
+
+@keyframes seta{
+
+    from {
+        right: 30px
+    }
+
+    to {
+        right: 20px;
+    } 
 }
 
 /* Define a área do conteúdo principal */
@@ -65,10 +85,6 @@ img {
 
 .header nav a:hover {
     background: rgba(0, 0, 0, .5);
-}
-
-.header li + li {
-    margin-left: 30px;
 }
 
 .text {

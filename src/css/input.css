@@ -10,15 +10,19 @@
     }
 
     .header {
-        @apply bg-lilac-gradient p-30px grid grid-cols-[1fr_auto] items-center;
+        @apply bg-lilac-gradient p-30px grid grid-cols-[1fr_auto] items-center md:grid-cols-[auto];
+    }
+
+    .header li + li {
+        @apply ml-30px md:ml-10px;
     }
 
     .logo {
-        @apply max-w-[200px];
+        @apply max-w-[200px] md:mb-20px;
     }
 
     .sidenav {
-        @apply bg-gray-25 p-30px;
+        @apply bg-gray-25 p-30px md:py-0 md:px-30px md:overflow-x-auto relative md:after:content-['→'] md:after:absolute md:after:top-[5px] md:after:right-30px md:after:text-[rgba(0,0,0,.3)];
     }
 
     .content {
