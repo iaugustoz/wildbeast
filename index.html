@@ -19,97 +19,117 @@
 
 </head>
 
-<body class="font-vollkorn">
+<body>
 
-    <div class="estrutura">
+    <article class="estrutura">
+
         <header class="header">
-            <a href="#" class="logo"><img src="src/img/wildbeast.svg" alt="Wildbeast"></a>
+            <a href="#" class="logo"><img src="src/img/wildbeast.svg" alt="WildBeast"></a>
             <nav>
-                <ul class="flex flex-wrap">
-                    <li><a href="#" class="block p-10px text-white text-[1.125em] transition duration-[.1s] rounded-[5px] md:text-[1em]">sobre</a></li>
-                    <li><a href="#" class="block p-10px text-white text-[1.125em] transition duration-[.1s] rounded-[5px] md:text-[1em]">animais</a></li>
-                    <li><a href="#" class="block p-10px text-white text-[1.125em] transition duration-[.1s] rounded-[5px] md:text-[1em]">contato</a></li>
+                <ul>
+                    <li><a href="#">sobre</a></li>
+                    <li><a href="#">animais</a></li>
+                    <li><a href="#">contato</a></li>
                 </ul>
             </nav>
         </header>
 
         <nav class="sidenav">
-            <ul class="md:flex">
-                <li class="md:flex-[1_0_60px]"><a href="#" class="block min-w-[60px] max-w-[100px] mt-0 mr-auto mb-30px ml-auto bg-white rounded-[5px] p-20px shadow-sm ease-out duration-[.1s] hover:bg-lilac-600 md:m-[30px_30px_30px_0px]"><img src="src/img/icones/cervo.svg" alt="Cervo"></a></li>
-                <li class="md:flex-[1_0_60px]"><a href="#" class="block min-w-[60px] max-w-[100px] mt-0 mr-auto mb-30px ml-auto bg-white rounded-[5px] p-20px shadow-sm ease-out duration-[.1s] hover:bg-lilac-600 md:m-[30px_30px_30px_0px]"><img src="src/img/icones/leao.svg" alt="Leão"></a></li>
-                <li class="md:flex-[1_0_60px]"><a href="#" class="block min-w-[60px] max-w-[100px] mt-0 mr-auto mb-30px ml-auto bg-white rounded-[5px] p-20px shadow-sm ease-out duration-[.1s] hover:bg-lilac-600 md:m-[30px_30px_30px_0px]"><img src="src/img/icones/gato.svg" alt="Gato"></a></li>
-                <li class="md:flex-[1_0_60px]"><a href="#" class="block min-w-[60px] max-w-[100px] mt-0 mr-auto mb-30px ml-auto bg-white rounded-[5px] p-20px shadow-sm ease-out duration-[.1s] hover:bg-lilac-600 md:m-[30px_30px_30px_0px]"><img src="src/img/icones/vaca.svg" alt="Vaca"></a></li>
-                <li class="md:flex-[1_0_60px]"><a href="#" class="block min-w-[60px] max-w-[100px] mt-0 mr-auto mb-30px ml-auto bg-white rounded-[5px] p-20px shadow-sm ease-out duration-[.1s] hover:bg-lilac-600 md:m-[30px_30px_30px_0px]"><img src="src/img/icones/ovelha.svg" alt="Ovelha"></a></li>
-                <li class="md:flex-[1_0_60px]"><a href="#" class="block min-w-[60px] max-w-[100px] mt-0 mr-auto mb-30px ml-auto bg-white rounded-[5px] p-20px shadow-sm ease-out duration-[.1s] hover:bg-lilac-600 md:m-[30px_30px_30px_0px]"><img src="src/img/icones/abelha.svg" alt="Abelha"></a></li>
+            <ul>
+                <li class="sidenav-item">
+                    <a href="#">
+                        <img src="src/img/icones/cervo.svg" alt="Cervo" />
+                    </a>
+                </li>
+                <li class="sidenav-item">
+                    <a href="#">
+                        <img src="src/img/icones/leao.svg" alt="Leão" />
+                    </a>
+                </li>
+                <li class="sidenav-item">
+                    <a href="#">
+                        <img src="src/img/icones/gato.svg" alt="Gato" />
+                    </a>
+                </li>
+                <li class="sidenav-item">
+                    <a href="#">
+                        <img src="src/img/icones/vaca.svg" alt="Vaca" />
+                    </a>
+                </li>
+                <li class="sidenav-item">
+                    <a href="#">
+                        <img src="src/img/icones/ovelha.svg" alt="Ovelha" />
+                    </a>
+                </li>
+                <li class="sidenav-item">
+                    <a href="#">
+                        <img src="src/img/icones/abelha.svg" alt="Abelha" />
+                    </a>
+                </li>
             </ul>
         </nav>
 
-        <main class="content">
+        <section class="content">
+
             <div class="titulo">
                 <h1>Lobo Cinza</h1>
                 <span>da família canis lupus</span>
             </div>
 
             <div class="caracteristicas">
-                <div class="w-[80px] text-center bg-lilac-gradient rounded-[5px] shadow-sm mr-30px relative">
-                    <span class="numero block">72</span>
-                    <span class="rotulo block">kg</span>
+                <div>
+                    <span class="numero">72</span>
+                    <span class="rotulo">kg</span>
                 </div>
-                <div class="w-[80px] text-center bg-lilac-gradient rounded-[5px] shadow-sm relative">
-                    <span class="numero block">13</span>
-                    <span class="rotulo block">age</span>
+                <div>
+                    <span class="numero">13</span>
+                    <span class="rotulo">age</span>
                 </div>
             </div>
 
-            <p class="col-wide texto">É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico</p>
+            <p class="introducao col-wide">É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico</p>
+            <img class="imagem-1" src="src/img/wolf1.jpg" alt="Wolf 1" />
+            <p class="destaque">É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos.</p>
+            <img class="imagem-2" src="src/img/wolf2.jpg" alt="Wolf 2" />
 
-            <img class="imagem-1" src="src/img/wolf1.jpg" alt="Wolf 1">
-
-            <p class="destaque">É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos.</p>
-
-            <img class="imagem-2" src="src/img/wolf2.jpg" alt="Wolf 2">
-
-            <p class="texto">O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a aumentar proporcionalmente com a latitude, como previsto pela teoria de Christian Bergmann. Em geral, a altura, medida a partir dos ombros, varia de 60 a 95 centímetros.</p>
-
-            <p class="texto">O peso varia geograficamente. Em média, os lobos europeus pesam 38,5 kg; os lobos da América do Norte, 36 kg; os lobos indianos e árabes, 25 kg. Embora raros, lobos com mais de 77 kg foram encontrados no Alasca, Canadá, e na antiga União Soviética.</p>
+            <p>O peso e tamanho dos lobos variam muito em todo o mundo, tendendo a aumentar proporcionalmente com a latitude, como previsto pela teoria de Christian Bergmann. Em geral, a altura, medida a partir dos ombros, varia de 60 a 95 centímetros.</p>
+            <p>O peso varia geograficamente. Em média, os lobos europeus pesam 38,5 kg; os lobos da América do Norte, 36 kg; os lobos indianos e árabes, 25 kg.[7] Embora raros, lobos com mais de 77 kg foram encontrados no Alasca, Canadá,[8] e na antiga União Soviética.</p>
 
             <blockquote class="citacao col-wide">
-                <p class="text-[1.5em] italic text-center max-w-[500px] mx-auto">“Há algo no uivar do lobo que tira um homem do aqui e agora e o transporta para uma floresta da mente.”</p>
+                <p>“Há algo no uivar do lobo que tira um homem do aqui e agora e o transporta para uma floresta da mente.”</p>
             </blockquote>
 
-
             <ul class="atributos">
-                <li class="text-white font-courier text-[1.125em] p-[15px]">Surgiu: 12.000 anos</li>
-                <li class="text-white font-courier text-[1.125em] p-[15px]">Tipo: Mamífero</li>
-                <li class="text-white font-courier text-[1.125em] p-[15px]">Idade Média: 13 anos</li>
-                <li class="text-white font-courier text-[1.125em] p-[15px]">Macho adulto: 80kg</li>
-                <li class="text-white font-courier text-[1.125em] p-[15px]">Fêmea adulta: 55kg</li>
-                <li class="text-white font-courier text-[1.125em] p-[15px]">Família: Lupus</li>
+                <li>Surgiu: 12.000 anos</li>
+                <li>Tipo: Mamífero</li>
+                <li>Idade Média: 13 anos</li>
+                <li>Macho adulto: 80kg</li>
+                <li>Fêmea adulta: 55kg</li>
+                <li>Família: Lupus</li>
             </ul>
 
             <div class="informacoes">
-                <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.</p>
-                <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás. O sequenciamento de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.</p>
+                <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.</p>
+                <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.[2] O sequenciamento de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.</p>
             </div>
 
-            <img class="col-wide" src="src/img/wolf3.jpg" alt="Wolf 3">
-
-        </main>
+            <img class="imagem-3 col-wide" src="src/img/wolf3.jpg" alt="Wolf" />
+        </section>
 
         <aside class="anuncios">
-            <div class="anuncio-item">
-                <img src="src/img/anuncio-1.jpg" alt="Anuncio 1">
+            <div class="anuncios-item">
+                <img src="src/img/anuncio-1.jpg" alt="Anúncio 1" />
             </div>
-            <div class="anuncio-item">
-                <img src="src/img/anuncio-2.jpg" alt="Anuncio 2">
+            <div class="anuncios-item">
+                <img src="src/img/anuncio-2.jpg" alt="Anúncio 2" />
             </div>
         </aside>
 
         <footer class="footer">
-            <p class="text-white text-center p-30px texto">Igor Augusto © 2023. Alguns direitos reservados.</p>
+            <p>Origamid © 2012 - 2017. Alguns direitos reservados.</p>
         </footer>
 
-    </div>
+    </article>
 
 </body>
 
